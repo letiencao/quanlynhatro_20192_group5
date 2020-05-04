@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Trang chủ</title>
+<!-- <title>Trang chủ</title> -->
 </head>
 <body>
 <div class="main-content">

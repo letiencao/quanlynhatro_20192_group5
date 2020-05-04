@@ -5,8 +5,7 @@
     <div class="footer-inner">
         <div class="footer-content">
 						<span class="bigger-120">
-							<span class="blue bolder">Group 5</span>
-						
+							<span class="blue bolder">laptrinhjavaweb.com</span>
 						</span>
 
             &nbsp; &nbsp;
