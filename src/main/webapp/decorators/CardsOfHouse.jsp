@@ -52,18 +52,33 @@ body {
 </head>
 <body>
 
-<h1>Danh sách nhà trọ hiện đang còn trống</h1>
+<h1>Danh sách nhà trọ hiện đang cho thuê</h1>
 
 
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/pictures/avatar.jpg" alt="Avatar" style="width:300px;height:300px;">
+      <img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/pictures/house1.jpg" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
       <h1>Nhà trọ 1</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+      <p>Giá :300$/ 1 tháng</p> 
+      <p>Nhà ở khép kín</p>
+      <p>Tình trạng : còn phòng</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/pictures/house2.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Nhà trọ 2</h1> 
+      <p>Giá :300$/ 1 tháng</p> 
+      <p>Nhà ở khép kín</p>
+      <p>Tình trạng : hết phòng</p>
     </div>
   </div>
 </div>
