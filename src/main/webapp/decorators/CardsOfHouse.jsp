@@ -60,6 +60,7 @@ body {
                     
                         <div class="col-lg-3 col-md-3 col-sm-12 p-0">
                             <select class="form-control search-slt" id="exampleFormControlSelect1">
+                             	<option>Tỉnh/Thành phố</option>
                                 <option>Hà nội</option>
     							<option>Hải phòng</option>
     							<option>Bắc Ninh</option>
