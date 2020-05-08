@@ -83,7 +83,16 @@
 		</div>
 		<!-- /.main-content -->
 		<script>
-		
+		$(function () {
+	        window.pagObj = $('#pagination').twbsPagination({
+	            totalPages: 100,
+	            visiblePages: 10,
+	            onPageClick: function (event, page) {
+	                console.info(page + ' (from options)');
+	            }
+	        
+	        });
+	    });
 		</script>
 	</body>
 

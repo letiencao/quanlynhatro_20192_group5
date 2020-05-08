@@ -6,19 +6,19 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.laptrinhjavaweb.dto.NewDTO;
+import com.laptrinhjavaweb.dto.PostDTO;
 
 @RestController(value = "newAPIOfAdmin")
 public class NewAPI {
 	
 	@PostMapping("/api/new")
-	public NewDTO createNew(@RequestBody NewDTO newDTO) {
-		return newDTO;
+	public PostDTO createNew(@RequestBody PostDTO postDTO) {
+		return postDTO;
 	}
 	
 	@PutMapping("/api/new")
-	public NewDTO updateNew(@RequestBody NewDTO newDTO) {
-		return newDTO;
+	public PostDTO updateNew(@RequestBody PostDTO postDTO) {
+		return postDTO;
 	}
 	
 	@DeleteMapping("/api/new")
