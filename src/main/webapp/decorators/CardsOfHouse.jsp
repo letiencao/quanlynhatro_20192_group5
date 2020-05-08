@@ -51,6 +51,55 @@ body {
 </style>
 </head>
 <body>
+<section class="search-sec">
+    <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                    
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Hà nội</option>
+    							<option>Hải phòng</option>
+    							<option>Bắc Ninh</option>
+   								<option>Hồ Chí Minh</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect2">
+                                <option>Quận/Huyện</option>
+                                <option>Cầu Giấy</option>
+    							<option>Tây Hồ</option>
+    							<option>Hai Bà Trưng</option>
+    							<option>Gò Vập</option>
+     							<option>1</option>
+                               
+                            </select>
+                        </div>
+
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect3">
+                                <option>Khoảng giá</option>
+                                <option>Dưới 1 triệu</option>
+                                <option>1triệu - 2triệu</option>
+                                <option>2triệu - 3triệu</option>
+                                <option>3triệu - 4triệu</option>
+                                <option>4triệu - 5triệu</option>
+                                <option>> 5triệu</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <button type="button" class="btn btn-danger wrn-btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
 
 <h1>Danh sách nhà trọ hiện đang cho thuê</h1>
 
@@ -65,9 +114,13 @@ body {
       <p>Giá :300$/ 1 tháng</p> 
       <p>Nhà ở khép kín</p>
       <p>Tình trạng : còn phòng</p>
+      </div>
+  	<p><button>Contact</button></p>
+	</div>
     </div>
   </div>
 </div>
+
 
 <div class="flip-card">
   <div class="flip-card-inner">
@@ -79,7 +132,10 @@ body {
       <p>Giá :300$/ 1 tháng</p> 
       <p>Nhà ở khép kín</p>
       <p>Tình trạng : hết phòng</p>
-    </div>
+      </div>
+  	<p><button>Contact</button></p>
+	</div>
+    </div>   
   </div>
 </div>
 
