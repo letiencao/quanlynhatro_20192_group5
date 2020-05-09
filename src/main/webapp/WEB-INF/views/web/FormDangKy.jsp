@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Form cho thuê nhà trọ</title>
+<meta charset="UTF-8">
+<title>Đăng tin</title>
 </head>
 <body>
 <h1>Mời bạn điền vào bản đăng ký nhà trọ cho thuê</h1>
