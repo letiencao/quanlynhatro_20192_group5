@@ -139,22 +139,7 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
-	<dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-search-engine</artifactId>
-            <version>4.3.0.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-search-orm</artifactId>
-            <version>4.3.0.Final</version>
-        </dependency>
-        <!-- mysql-connector-java -->
-	<dependency>
-   	 	<groupId>mysql</groupId>
-   		<artifactId>mysql-connector-java</artifactId>
-    	<version>8.0.20</version>
-</dependency>
+
 		<!-- Spring data -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
