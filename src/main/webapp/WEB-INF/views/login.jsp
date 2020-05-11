@@ -30,7 +30,34 @@
 					<div class="form-group">
 						<input type="password" class="form-control" id="password" name="j_password" placeholder="Mật khẩu">
 					</div>
+					
+					
+					
+					
 					<button type="submit" class="btn btn-primary" >Đăng nhập</button>
+					
+					
+	  <p> </p>				
+<div id="socialLoginList">
+  <p>
+<form action="/Login/Facebook" method="post">            
+<button type="submit" class="btn btn-social btn-bg-facebook btn-block" title="Đăng nhập bằng Facebook"><i class="fa fa-facebook"></i> Đăng nhập bằng Facebook</button>
+</form>    
+</p>
+    <p>
+<form action="/Login/Google" method="post">           
+ <button type="submit" class="btn btn-social btn-bg-google btn-block" title="Đăng nhập bằng Google"><i class="fa fa-google"></i> Đăng nhập bằng Google</button>
+</form>  
+  </p>
+</div>
+                </div>
+					
+					 <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+      <div class="modal-footer">
+                    <p class="text-center">Chưa có tài khoản? <a href="/dang-ky.html" rel="nofollow">Đăng ký</a></p>
+                </div>
 				</form>
 			</div>
 		</div>
