@@ -20,7 +20,7 @@
   </div>
   
   <div class="form-group">
-    <label for="MatKhau">Mật khẩu:</label>
+    <label for="MatKhau">Mật khẩu :</label>
     <input type="password" class="form-control" id="MatKhau">
   </div>
    <div class="form-group">
