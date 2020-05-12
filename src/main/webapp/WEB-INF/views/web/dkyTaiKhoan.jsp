@@ -10,7 +10,7 @@
 <h1>Đăng ký tài khoản</h1>
 <form action="/action_page.php">
  <div class="form-group">
-    <label for="HoTen">Họ và Tên:</label>
+    <label for="HoTen">Họ và Tên</label>
     <input type="HoTen" class="form-control" id="HoTen">
   </div>
   
@@ -20,11 +20,11 @@
   </div>
   
   <div class="form-group">
-    <label for="MatKhau">Mật khẩu :</label>
+    <label for="MatKhau">Mật khẩu </label>
     <input type="password" class="form-control" id="MatKhau">
   </div>
    <div class="form-group">
-    <label for="MatKhau">Nhập lại Mật khẩu:</label>
+    <label for="MatKhau">Nhập lại Mật khẩu</label>
     <input type="password" class="form-control" id="MatKhau">
   </div>
   
