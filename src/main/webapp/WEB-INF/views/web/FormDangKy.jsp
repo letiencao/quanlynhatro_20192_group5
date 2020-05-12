@@ -77,6 +77,11 @@
       <input type="text" class="form-control" id="inputTuoi">
     </div>
   </div>
+  <div class="form-group col-md-4">
+      <label for="inputChuDe">Số điện thoại</label>
+      <input type="text" class="form-control" id="inputSoDienThoai">
+    </div>
+  </div>
   <div class="form-group col-md-6">
       <label for="inputChuDe">Email</label>      
        <input type="NguyenVanA@gmail.com" class="form-control" id="inputsoNha" placeholder="NguyenVanA@gmail.com">
