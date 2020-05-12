@@ -28,8 +28,10 @@
 						href="<c:url value =  "/dang-nhap"/>">Đăng nhập <span
 							class="sr-only">(current)</span>
 					</a></li>
-					<li class="nav-item active"><a class="nav-link" href="#">Đăng ký</a></li>
+					<li class="nav-item active"><a class="nav-link" href="<c:url value =  "/dang-ky"/>">Đăng ký</a></li>
 				</security:authorize>
+				
+				
 				<security:authorize access="isAuthenticated()">
 					<li class="nav-item active"><a class="nav-link" href="#">Welcome
 							<%=SecurityUtils.getPrincipal().getFullName()%> <span
