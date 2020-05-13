@@ -27,6 +27,55 @@ public class HomeEntity extends BaseEntity  {
 	@ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private UserEntity user;
+	
+	
+	
+	public String getThumbnail() {
+		return thumbnail;
+	}
+	public void setThumbnail(String thumbnail) {
+		this.thumbnail = thumbnail;
+	}
+	public String getWard() {
+		return ward;
+	}
+	public void setWard(String ward) {
+		this.ward = ward;
+	}
+	public String getDistrict() {
+		return district;
+	}
+	public void setDistrict(String district) {
+		this.district = district;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public float getArea() {
+		return area;
+	}
+	public void setArea(float area) {
+		this.area = area;
+	}
+	public float getRentCost() {
+		return rentCost;
+	}
+	public void setRentCost(float rentCost) {
+		this.rentCost = rentCost;
+	}
+	public UserEntity getUser() {
+		return user;
+	}
+	public void setUser(UserEntity user) {
+		this.user = user;
+	}
+	
+	
+	
+	
 	 
 	
 
