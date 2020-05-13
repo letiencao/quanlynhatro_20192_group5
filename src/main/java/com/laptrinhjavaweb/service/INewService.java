@@ -2,8 +2,14 @@ package com.laptrinhjavaweb.service;
 
 import java.util.List;
 
-import com.laptrinhjavaweb.model.NewModel;
+import org.springframework.data.domain.Pageable;
+
+import com.laptrinhjavaweb.dto.NewDTO;
 
 public interface INewService {
-	List<NewModel> findAll();
+	List<NewDTO> findAll(Pageable pageable);
+	int getTotalItem();
+	NewDTO findById(long id);
+	NewDTO save(NewDTO dto);
+	void delete(long[] ids);
 }

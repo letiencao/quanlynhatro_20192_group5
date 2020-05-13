@@ -9,7 +9,6 @@ import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -32,28 +31,6 @@ public class UserEntity extends BaseEntity {
 	@JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "userid"), 
 								  inverseJoinColumns = @JoinColumn(name = "roleid"))
 	private List<RoleEntity> roles = new ArrayList<>();
-	@OneToMany(mappedBy = "user")
-	private List<PostEntity> posts = new ArrayList<PostEntity>();
-	@OneToMany(mappedBy = "user")
-	private List<HomeEntity> homes = new ArrayList<HomeEntity>();
-	
-	
-
-	public List<PostEntity> getPosts() {
-		return posts;
-	}
-
-	public void setPosts(List<PostEntity> posts) {
-		this.posts = posts;
-	}
-
-	public List<HomeEntity> getHomes() {
-		return homes;
-	}
-
-	public void setHomes(List<HomeEntity> homes) {
-		this.homes = homes;
-	}
 
 	public String getUserName() {
 		return userName;
