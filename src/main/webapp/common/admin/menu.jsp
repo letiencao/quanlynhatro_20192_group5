@@ -38,7 +38,7 @@
             <a href="#" class="dropdown-toggle">
                 <i class="menu-icon fa fa-list"></i>
                 <span class="menu-text"></span>
-                Quản lý bài viết
+                Quản lý thong tin
                 <b class="arrow fa fa-angle-down"></b>
             </a>
             <b class="arrow"></b>
@@ -55,9 +55,9 @@
             
             <ul class="submenu">
                 <li>
-                    <a href="<c:url value='/quan-tri/bai-viet/danh-sach?page=1&limit=2'/>">
+                    <a href="<c:url value='/quan-tri/nha-tro/danh-sach?page=1&limit=2'/>">
                         <i class="menu-icon fa fa-caret-right"></i>
-                        Danh sach user
+                        Danh sach nha tro
                     </a>
                     <b class="arrow"></b>
                 </li>
