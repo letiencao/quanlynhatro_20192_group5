@@ -34,7 +34,7 @@
         </div>
     </div>
     <ul class="nav nav-list">
-        <li >
+        <li>
             <a href="#" class="dropdown-toggle">
                 <i class="menu-icon fa fa-list"></i>
                 <span class="menu-text"></span>
@@ -47,6 +47,17 @@
                     <a href="<c:url value='/quan-tri/bai-viet/danh-sach?page=1&limit=2'/>">
                         <i class="menu-icon fa fa-caret-right"></i>
                         DS bài viết
+                    </a>
+                    <b class="arrow"></b>
+                </li>
+            </ul>
+            
+            
+            <ul class="submenu">
+                <li>
+                    <a href="<c:url value='/quan-tri/bai-viet/danh-sach?page=1&limit=2'/>">
+                        <i class="menu-icon fa fa-caret-right"></i>
+                        Danh sach user
                     </a>
                     <b class="arrow"></b>
                 </li>
