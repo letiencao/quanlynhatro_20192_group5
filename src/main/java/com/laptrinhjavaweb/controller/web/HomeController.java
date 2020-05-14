@@ -39,6 +39,11 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("/web/FormDangKy");
 		return mav;
 	}
+	@RequestMapping(value = "/tai-khoan-ca-nhan", method = RequestMethod.GET)
+	public ModelAndView manageAcc() {
+		ModelAndView mav = new ModelAndView("/web/TaiKhoanCaNhan");
+		return mav;
+	}
 	@RequestMapping(value = "/accessDenied", method = RequestMethod.GET)
 	public ModelAndView accessDenied() {
 		return new ModelAndView("redirect:/dang-nhap?accessDenied");
