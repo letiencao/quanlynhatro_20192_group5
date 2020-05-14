@@ -1,9 +1,7 @@
 package com.laptrinhjavaweb.dto;
 
-import com.laptrinhjavaweb.entity.CategoryEntity;
-import com.laptrinhjavaweb.entity.UserEntity;
-
 public class HomeDTO extends AbstractDTO<HomeDTO> {
+	private String title;
 	
 	private String thumbnail;
 	
@@ -17,18 +15,21 @@ public class HomeDTO extends AbstractDTO<HomeDTO> {
 	
 	private float rentCost;
 	
-    private UserEntity userid;
-    private CategoryEntity categoryid;
+    private Long userid;
+    private Long categoryId;
+	private String categoryCode;
+    
 
     
-	public CategoryEntity getCategoryid() {
-		return categoryid;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setCategoryid(CategoryEntity categoryid) {
-		this.categoryid = categoryid;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
+	
 	public String getThumbnail() {
 		return thumbnail;
 	}
@@ -77,13 +78,31 @@ public class HomeDTO extends AbstractDTO<HomeDTO> {
 		this.rentCost = rentCost;
 	}
 
-	public UserEntity getUserid() {
+	public Long getUserid() {
 		return userid;
 	}
 
-	public void setUserid(UserEntity userid) {
+	public void setUserid(Long userid) {
 		this.userid = userid;
 	}
+
+	public Long getCategoryId() {
+		return categoryId;
+	}
+
+	public void setCategoryId(Long categoryId) {
+		this.categoryId = categoryId;
+	}
+
+	public String getCategoryCode() {
+		return categoryCode;
+	}
+
+	public void setCategoryCode(String categoryCode) {
+		this.categoryCode = categoryCode;
+	}
+
+	
     
     
 }
