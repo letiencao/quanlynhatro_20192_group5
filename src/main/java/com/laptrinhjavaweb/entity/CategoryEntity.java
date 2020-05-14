@@ -20,6 +20,8 @@ public class CategoryEntity extends BaseEntity {
 
 	@OneToMany(mappedBy = "category")
 	private List<NewEntity> news = new ArrayList<>();
+	@OneToMany(mappedBy = "category")
+	private List<HomeEntity> homes = new ArrayList<HomeEntity>();
 
 	public String getName() {
 		return name;
