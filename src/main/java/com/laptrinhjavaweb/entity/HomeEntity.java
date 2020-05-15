@@ -13,8 +13,7 @@ import javax.persistence.Table;
 public class HomeEntity extends BaseEntity  {
 	
 	
-	@Column(name = "title")
-	private String title;
+
 	@Column(name = "thumbnail")
 	private String thumbnail;
 	@Column(name = "ward")
@@ -36,12 +35,7 @@ public class HomeEntity extends BaseEntity  {
 	
 	
 	
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
+	
 	public CategoryEntity getCategory() {
 		return category;
 	}
