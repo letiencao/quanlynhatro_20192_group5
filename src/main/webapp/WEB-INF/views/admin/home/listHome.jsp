@@ -62,7 +62,7 @@
 												<thead>
 													<tr>
 														<th><input type="checkbox" id="checkAll"></th>
-														<th>Tiêu đề</th>
+														
 														<th>Ảnh</th>
 														<th>Phường/Xã</th>
 														<th>Quận/Huyện</th>
@@ -76,7 +76,7 @@
 													<c:forEach var="item" items="${model.listResult}">
 														<tr>
 															<td><input type="checkbox" id="checkbox_${item.id}" value="${item.id}"></td>
-															<td>${item.title}</td>
+															
 															<td>${item.thumbnail}</td>
 															<td>${item.ward }</td>
 															<td>${item.district }</td>
@@ -142,11 +142,11 @@
 							var ids = $('tbody input[type=checkbox]:checked').map(function () {
 					            return $(this).val();
 					        }).get();
-							deleteNew(ids);
+							deleteHome(ids);
 					  }
 					});
 			} 
-			function deleteNew(data) {
+			function deleteHome(data) {
 		        $.ajax({
 		            url: '${homeAPI}',
 		            type: 'DELETE',
@@ -156,7 +156,7 @@
 		                window.location.href = "${homeURL}?page=1&limit=2&message=delete_success";
 		            },
 		            error: function (error) {
-		            	window.location.href = "${newURL}?page=1&limit=2&message=error_system";
+		            	window.location.href = "${homeURL}?page=1&limit=2&message=error_system";
 		            }
 		        });
 		    }
