@@ -1,7 +1,7 @@
 package com.laptrinhjavaweb.dto;
 
 public class HomeDTO extends AbstractDTO<HomeDTO> {
-	private String title;
+	
 	
 	private String thumbnail;
 	
@@ -21,13 +21,7 @@ public class HomeDTO extends AbstractDTO<HomeDTO> {
     
 
     
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
-	}
+	
 
 	
 	public String getThumbnail() {
