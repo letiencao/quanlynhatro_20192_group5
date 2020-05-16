@@ -35,7 +35,7 @@ public class HomesController {
 		HomeDTO model = new HomeDTO();
 		model.setPage(page);
 		model.setLimit(limit);
-		ModelAndView mav = new ModelAndView("admin/home/listHome");
+		ModelAndView mav = new ModelAndView("admin/homemanagement/listHome");
 		Pageable pageable = new PageRequest(page - 1, limit);
 		model.setListResult(homeService.findAll(pageable));
 		model.setTotalItem(homeService.getTotalItem());
@@ -51,7 +51,7 @@ public class HomesController {
 	
 	@RequestMapping(value = "/quan-tri/nha-tro/chinh-sua", method = RequestMethod.GET)
 	public ModelAndView editNew(@RequestParam(value = "id", required = false) Long id, HttpServletRequest request) {
-		ModelAndView mav = new ModelAndView("admin/home/editHome");
+		ModelAndView mav = new ModelAndView("admin/homemanagement/editHome");
 		HomeDTO model = new HomeDTO();
 		if (id != null) {
 			model = homeService.findById(id);
