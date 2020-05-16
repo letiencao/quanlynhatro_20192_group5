@@ -1,29 +1,23 @@
 package com.laptrinhjavaweb.dto;
 
 public class HomeDTO extends AbstractDTO<HomeDTO> {
-	
-	
+
 	private String thumbnail;
-	
+
 	private String ward;
-	
+
 	private String district;
-	
+
 	private String city;
-	
+
 	private float area;
-	
+
 	private float rentCost;
-	
-    private Long userid;
-    private Long categoryId;
+
+	private Long userid;
+	private Long categoryId;
 	private String categoryCode;
-    
 
-    
-	
-
-	
 	public String getThumbnail() {
 		return thumbnail;
 	}
@@ -96,7 +90,4 @@ public class HomeDTO extends AbstractDTO<HomeDTO> {
 		this.categoryCode = categoryCode;
 	}
 
-	
-    
-    
 }
