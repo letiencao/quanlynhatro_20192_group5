@@ -3,7 +3,7 @@ use quanlynhatro;
 
 
 insert into home(area,city,district,rentCost,thumbnail,ward,category_id,user_id)
-values(123.1,'Hà Nội','Hà Đông'',1.2,'',Nguyễn Trãi',1,2);
+values(123.1,'Hà Nội','Hà Đông',1.2,'','Nguyễn Trãi',1,2);
 insert into home(area,city,district,rentCost,thumbnail,ward,category_id,user_id)
 values(101.2,'Hà Nội','Cầu Giấy',1.3 ,'','Trung Hòa',1,1);
 insert into home(area,city,district,rentCost,thumbnail,ward,category_id,user_id)
