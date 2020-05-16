@@ -38,7 +38,7 @@
             <a href="#" class="dropdown-toggle">
                 <i class="menu-icon fa fa-list"></i>
                 <span class="menu-text"></span>
-                Quản lý thong tin
+                Quản lý thông tin
                 <b class="arrow fa fa-angle-down"></b>
             </a>
             <b class="arrow"></b>
@@ -46,7 +46,7 @@
                 <li>
                     <a href="<c:url value='/quan-tri/bai-viet/danh-sach?page=1&limit=2'/>">
                         <i class="menu-icon fa fa-caret-right"></i>
-                        DS bài viết
+                        Danh sách bài viết
                     </a>
                     <b class="arrow"></b>
                 </li>
@@ -57,7 +57,7 @@
                 <li>
                     <a href="<c:url value='/quan-tri/nha-tro/danh-sach?page=1&limit=2'/>">
                         <i class="menu-icon fa fa-caret-right"></i>
-                        Danh sach nha tro
+                        Danh sách nhà trọ
                     </a>
                     <b class="arrow"></b>
                 </li>
