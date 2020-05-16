@@ -14,7 +14,6 @@ public class NewConverter {
 		result.setTitle(entity.getTitle());
 		result.setShortDescription(entity.getShortDescription());
 		result.setContent(entity.getContent());
-		result.setThumbnail(entity.getThumbnail());
 		result.setCategoryCode(entity.getCategory().getCode());
 		return result;
 	}
@@ -24,7 +23,6 @@ public class NewConverter {
 		result.setTitle(dto.getTitle());
 		result.setShortDescription(dto.getShortDescription());
 		result.setContent(dto.getContent());
-		result.setThumbnail(dto.getThumbnail());
 		return result;
 	}
 	
@@ -32,7 +30,6 @@ public class NewConverter {
 		result.setTitle(dto.getTitle());
 		result.setShortDescription(dto.getShortDescription());
 		result.setContent(dto.getContent());
-		result.setThumbnail(dto.getThumbnail());
 		return result;
 	}
 }
