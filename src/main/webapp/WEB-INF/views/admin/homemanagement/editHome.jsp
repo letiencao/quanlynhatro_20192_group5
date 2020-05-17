@@ -122,7 +122,7 @@
             data[""+v.name+""] = v.value;
         });
 	    var id = $('#homeId').val();
-	    if (id == "") {
+	    if (id == " ") {
 	    	addHome(data);
 	    } else {
 	    	updateHome(data);
