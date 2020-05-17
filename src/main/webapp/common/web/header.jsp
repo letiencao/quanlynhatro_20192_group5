@@ -15,13 +15,13 @@
 						<span class="sr-only">(current)</span>
 				</a></li>
 				<security:authorize access = "isAnonymous()">
-					<li class="nav-item"><a class="nav-link" href="<c:url value='/dang-nhap'/>">Đăng nhập</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Đăng ký</a></li>
+					<li class="nav-item active"><a class="nav-link" href="<c:url value='/dang-nhap'/>">Đăng nhập</a></li>
+					<li class="nav-item active"><a class="nav-link" href="<c:url value='/dang-ky'/>">Đăng ký</a></li>
 				</security:authorize>
 				<security:authorize access = "isAuthenticated()">
-					<li class="nav-item"><a class="nav-link" href="<c:url value='/tai-khoan-ca-nhan'/>">Welcome <%=SecurityUtils.getPrincipal().getFullName()%></a></li>
-					<li class="nav-item"><a class="nav-link" href="<c:url value='/dang-tin'/>">Đăng tin</a></li>
-					<li class="nav-item"><a class="nav-link" href="<c:url value='/thoat'/>">Thoát</a></li>
+					<li class="nav-item active"><a class="nav-link" href="<c:url value='/tai-khoan-ca-nhan'/>">Welcome <%=SecurityUtils.getPrincipal().getFullName()%></a></li>
+					<li class="nav-item active"><a class="nav-link" href="<c:url value='/dang-tin'/>">Đăng tin</a></li>
+					<li class="nav-item active"><a class="nav-link" href="<c:url value='/thoat'/>">Thoát</a></li>
 					
 				</security:authorize>
 			</ul>
