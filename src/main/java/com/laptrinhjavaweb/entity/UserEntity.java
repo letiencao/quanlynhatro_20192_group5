@@ -34,6 +34,8 @@ public class UserEntity extends BaseEntity {
 	private List<RoleEntity> roles = new ArrayList<>();
 	@OneToMany(mappedBy = "user")
 	private List<HomeEntity> homes = new ArrayList<HomeEntity>();
+	@OneToMany(mappedBy = "user")
+	private List<NewEntity> userEntities = new ArrayList<NewEntity>();
 
 	public List<HomeEntity> getHomes() {
 		return homes;
@@ -82,4 +84,13 @@ public class UserEntity extends BaseEntity {
 	public void setRoles(List<RoleEntity> roles) {
 		this.roles = roles;
 	}
+
+	public List<NewEntity> getUserEntities() {
+		return userEntities;
+	}
+
+	public void setUserEntities(List<NewEntity> userEntities) {
+		this.userEntities = userEntities;
+	}
+	
 }
