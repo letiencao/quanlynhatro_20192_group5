@@ -36,6 +36,8 @@ public class HomeEntity extends BaseEntity  {
 	
 	
 	
+	
+	
 	public CategoryEntity getCategory() {
 		return category;
 	}
