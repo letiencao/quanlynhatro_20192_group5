@@ -50,7 +50,7 @@ public class HomesController {
 	}
 	
 	@RequestMapping(value = "/quan-tri/nha-tro/chinh-sua", method = RequestMethod.GET)
-	public ModelAndView editNew(@RequestParam(value = "id", required = false) Long id, HttpServletRequest request) {
+	public ModelAndView editHome(@RequestParam(value = "id", required = false) Long id, HttpServletRequest request) {
 		ModelAndView mav = new ModelAndView("admin/homemanagement/editHome");
 		HomeDTO model = new HomeDTO();
 		if (id != null) {
