@@ -25,6 +25,11 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("login");
 		return mav;
 	}
+	@RequestMapping(value = "/dang-ky", method = RequestMethod.GET)
+	public ModelAndView signUpPage() {
+		ModelAndView mav = new ModelAndView("dkyTaiKhoan");
+		return mav;
+	}
 	
 	@RequestMapping(value = "/thoat", method = RequestMethod.GET)
 	public ModelAndView logout(HttpServletRequest request, HttpServletResponse response) {
@@ -36,12 +41,12 @@ public class HomeController {
 	}
 	@RequestMapping(value = "/dang-tin", method = RequestMethod.GET)
 	public ModelAndView postPage() {
-		ModelAndView mav = new ModelAndView("/web/FormDangKy");
+		ModelAndView mav = new ModelAndView("FormDangKy");
 		return mav;
 	}
 	@RequestMapping(value = "/tai-khoan-ca-nhan", method = RequestMethod.GET)
 	public ModelAndView manageAcc() {
-		ModelAndView mav = new ModelAndView("/web/TaiKhoanCaNhan");
+		ModelAndView mav = new ModelAndView("TaiKhoanCaNhan");
 		return mav;
 	}
 	@RequestMapping(value = "/accessDenied", method = RequestMethod.GET)
