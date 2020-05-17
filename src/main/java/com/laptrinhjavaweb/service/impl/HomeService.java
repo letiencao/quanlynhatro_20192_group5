@@ -65,7 +65,6 @@ public class HomeService implements IHomeService {
 		}
 		return homeConverter.toDto(homeRepository.save(homeEntity));
 	}
-
 	@Override
 	@Transactional
 	public void delete(long[] ids) {
