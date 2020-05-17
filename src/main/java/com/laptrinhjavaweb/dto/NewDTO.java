@@ -7,6 +7,7 @@ public class NewDTO extends AbstractDTO<NewDTO> {
 	private String content;
 	private Long categoryId;
 	private String categoryCode;
+	
 
 	public String getTitle() {
 		return title;
