@@ -49,6 +49,11 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("TaiKhoanCaNhan");
 		return mav;
 	}
+	@RequestMapping(value = "/detailHouse", method = RequestMethod.GET)
+	public ModelAndView detailHouse() {
+		ModelAndView mav = new ModelAndView("detailHouse");
+		return mav;
+	}
 	@RequestMapping(value = "/accessDenied", method = RequestMethod.GET)
 	public ModelAndView accessDenied() {
 		return new ModelAndView("redirect:/dang-nhap?accessDenied");
