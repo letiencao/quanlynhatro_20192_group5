@@ -44,6 +44,17 @@
 			</div>
 		</div>
 
+			<h1>Nhà trọ 1</h1>
+			<div class="text-center">
+  						<img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/main/webapp/Pictures/avatar.jpg" alt="Avatar" style="width:300px;height:300px;">
+  						
+      					<p>Giá :300$/ 1 tháng</p> 
+      					<p>Nhà ở khép kín</p>
+     					 <p>Tình trạng : còn phòng</p>
+     					 <button type="button" class="btn btn-danger">Contact</button>
+     					 
+					</div>
+
 		<!-- Content Row -->
 		<div class="row">
 			<div class="col-md-4 mb-5">
