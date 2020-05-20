@@ -28,7 +28,8 @@ public class NewEntity extends BaseEntity {
 	@ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private UserEntity user;
-
+	
+	
 	public String getTitle() {
 		return title;
 	}
@@ -69,5 +70,12 @@ public class NewEntity extends BaseEntity {
 	public void setUserEntity(UserEntity user) {
 		this.user = user;
 	}
+
+	
+
+	public void setUser(UserEntity user) {
+		this.user = user;
+	}
+	
 	
 }
