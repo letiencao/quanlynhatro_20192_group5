@@ -14,9 +14,13 @@ public class HomeDTO extends AbstractDTO<HomeDTO> {
 
 	private float rentCost;
 
-	private Long userid;
+	private Long userId;
+	
 	private Long categoryId;
+	
 	private String categoryCode;
+	
+	private Long newId;
 
 	public String getThumbnail() {
 		return thumbnail;
@@ -66,12 +70,12 @@ public class HomeDTO extends AbstractDTO<HomeDTO> {
 		this.rentCost = rentCost;
 	}
 
-	public Long getUserid() {
-		return userid;
+	public Long getUserId() {
+		return userId;
 	}
 
-	public void setUserid(Long userid) {
-		this.userid = userid;
+	public void setUserId(Long userId) {
+		this.userId = userId;
 	}
 
 	public Long getCategoryId() {
@@ -89,5 +93,14 @@ public class HomeDTO extends AbstractDTO<HomeDTO> {
 	public void setCategoryCode(String categoryCode) {
 		this.categoryCode = categoryCode;
 	}
+
+	public Long getNewId() {
+		return newId;
+	}
+
+	public void setNewId(Long newId) {
+		this.newId = newId;
+	}
+	
 
 }
