@@ -1,10 +1,12 @@
 package com.laptrinhjavaweb.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -34,6 +36,10 @@ public class HomeEntity extends BaseEntity  {
     private CategoryEntity category;
 	
 	
+	
+	@OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "new_id", referencedColumnName = "id")
+    private NewEntity newId;
 	
 	
 	
@@ -86,6 +92,14 @@ public class HomeEntity extends BaseEntity  {
 	public void setUser(UserEntity user) {
 		this.user = user;
 	}
+	public NewEntity getNewId() {
+		return newId;
+	}
+	public void setNewId(NewEntity newId) {
+		this.newId = newId;
+	}
+	
+	
 	
 	
 	
