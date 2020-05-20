@@ -135,7 +135,7 @@ body {
       					<p>Tình trạng : hết phòng</p></p>
 					</div>
 					<div class="card-footer">
-						<a href="#" class="btn btn-primary btn-sm">Contact></a>
+						<a href="detailHouse" class="btn btn-primary btn-sm">Contact></a>
 					</div>
 				</div>
 			</div>
