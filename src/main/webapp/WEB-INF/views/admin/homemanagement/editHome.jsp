@@ -100,10 +100,14 @@
 											</c:if>
 
 											&nbsp; &nbsp; &nbsp;
+											<a href="admin/homemanagement/listHome">
 											<button class="btn" type="reset">
+											
 												<i class="ace-icon fa fa-undo bigger-110"></i>
 												Hủy
+												
 											</button>
+											</a>
 							</div>		
 						</div>
 					</form:form>
