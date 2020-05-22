@@ -49,9 +49,14 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("TaiKhoanCaNhan");
 		return mav;
 	}
-	@RequestMapping(value = "/detailHouse", method = RequestMethod.GET)
-	public ModelAndView detailHouse() {
-		ModelAndView mav = new ModelAndView("detailHouse");
+	@RequestMapping(value = "/detailHouse1", method = RequestMethod.GET)
+	public ModelAndView detailHouse1() {
+		ModelAndView mav = new ModelAndView("detailHouse1");
+		return mav;
+	}
+	@RequestMapping(value = "/detailHouse2", method = RequestMethod.GET)
+	public ModelAndView detailHouse2() {
+		ModelAndView mav = new ModelAndView("detailHouse2");
 		return mav;
 	}
 	@RequestMapping(value = "/accessDenied", method = RequestMethod.GET)
