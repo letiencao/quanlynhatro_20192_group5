@@ -117,7 +117,7 @@ body {
 
 
 				
-		
+		<img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/main/webapp/pictures/okkkkk.gif" class="rounded float-right" alt=".">
 
 		<!-- Content Row -->
 		<!-- row1 -->
@@ -128,21 +128,41 @@ body {
 					<div class="card-body">
 						<h2 class="card-title">Nhà trọ 1</h2>
 						
-						<img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/pictures/house2.png" alt="Avatar" style="width:300px;height:300px;">
+						<img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/main/webapp/pictures/house1.jpg" alt="Avatar" style="width:300px;height:300px;">
 					<p class="card-text"> 
-      					<p>Giá :300$/ 1 tháng</p> 
+      					<p>Giá :100$/ 1 tháng</p> 
       					<p>Nhà ở khép kín</p>
-      					<p>Tình trạng : hết phòng</p></p>
+      					<p>Tình trạng : còn phòng</p></p>
 					</div>
 					<div class="card-footer">
-						<a href="detailHouse" class="btn btn-primary btn-sm">Contact></a>
+						<a href="detailHouse1" class="btn btn-primary btn-sm">Contact></a>
 					</div>
 				</div>
 			</div>
+
+
+			</div>			
+			<!-- row2 -->
 			
-			
-			
-			
+		<div class="row">
+			<div class="col-md-4 mb-5">
+				<div class="card h-100">
+					<div class="card-body">
+						<h2 class="card-title">Nhà trọ 2</h2>
+						
+						<img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/main/webapp/pictures/house3.jpg" alt="Avatar" style="width:300px;height:300px;">
+					<p class="card-text"> 
+      					<p>Giá :200$/ 1 tháng</p> 
+      					<p>Nhà ở khép kín</p>
+      					<p>Đầy đủ tiện nghi</p>
+      					<p>Tình trạng : còn phòng</p></p>
+					</div>
+					<div class="card-footer">
+						<a href="detailHouse2" class="btn btn-primary btn-sm">Contact></a>
+					</div>
+				</div>
+			</div>
+
 
 			</div>			
 		</div>
