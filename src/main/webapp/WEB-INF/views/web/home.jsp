@@ -110,17 +110,7 @@ body {
 	
 
 	
-		</div>
-		<!-- /.row -->
-
-		<!-- Call to Action Well -->
-
-
-				
-		<img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/main/webapp/pictures/okkkkk.gif" class="rounded float-right" alt=".">
-
-		<!-- Content Row -->
-		<!-- row1 -->
+		
 
 		<div class="row">
 			<div class="col-md-4 mb-5">
@@ -128,7 +118,7 @@ body {
 					<div class="card-body">
 						<h2 class="card-title">Nhà trọ 1</h2>
 						
-						<img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/main/webapp/pictures/house1.jpg" alt="Avatar" style="width:300px;height:300px;">
+						<img src="https://wedo.vn/wp-content/uploads/2019/11/thiet-ke-phong-tro-dep-8.jpg" alt="Avatar" style="width:300px;height:300px;">
 					<p class="card-text"> 
       					<p>Giá :100$/ 1 tháng</p> 
       					<p>Nhà ở khép kín</p>
@@ -149,8 +139,7 @@ body {
 				<div class="card h-100">
 					<div class="card-body">
 						<h2 class="card-title">Nhà trọ 2</h2>
-						
-						<img src="file:///C:/Users/Admin/quanlynhatro_20192_group5/src/main/webapp/pictures/house3.jpg" alt="Avatar" style="width:300px;height:300px;">
+						<img src="https://www.tapchithethao.com/wp-content/uploads/2019/09/nha-tro-gac-lung-duoc-nhieu-nguoi-yeu-thich.png" alt="Avatar" style="width:300px;height:300px;">
 					<p class="card-text"> 
       					<p>Giá :200$/ 1 tháng</p> 
       					<p>Nhà ở khép kín</p>
@@ -165,6 +154,6 @@ body {
 
 
 			</div>			
-		</div>
+		
 		<!-- /.row -->
 </html>
